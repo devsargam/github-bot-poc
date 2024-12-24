@@ -3,8 +3,6 @@ import { App, createNodeMiddleware } from "octokit";
 import { createServer } from "http";
 import "dotenv/config";
 
-console.log(process.env);
-
 const app = new App({
   appId: 1095421,
   oauth: {
